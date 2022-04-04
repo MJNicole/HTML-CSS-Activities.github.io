@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Exercise: Box Models</title>
+    <ul class = nav>
+      <li>Exercise: Box Models</li>
+      <li><i class="fa fa-home"><a link href="index.html"> </i> HOME </a></li>
+    </ul>
+<style>
+    .standard {
+    border: 5px solid teal;
+    background-color: #A5CFE3;
+    padding: 40px;
+    margin: 40px;
+    width: 350px;
+    height: 150px;
+}
+
+  .alternate {
+    box-sizing: border-box;
+    width: 440px;
+    height: 240px;
+}
+  .nav {
+    background-color: #229954;
+    list-style-type: none;     
+}
+  .nav li{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    }
+
+  .nav li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    }
+
+  .nav li a:hover{
+    color: #145A32 ;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="standard">I am using the standard box model.</div>
+    <div class="standard alternate">I am using the alternate box model.</div>
+    
+    
+</body>
+</html>

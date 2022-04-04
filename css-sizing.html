@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Exercise: Sizing Elements in CSS</title>
+    <ul class = nav>
+        <li>Exercise: Sizing Elements in CSS</li>
+        <li><i class="fa fa-home"><a link href="index.html"> </i> HOME </a></li>
+    </ul>
+<style>
+    .box1 {
+    border: 5px solid teal;
+    width:400px;
+    min-height: 100px;
+    overflow: hidden;
+    }
+
+    .box2 {
+    border: 5px solid teal;
+    width:400px;
+    height: 100px;
+    }  
+    .nav {
+    background-color: #229954;
+    list-style-type: none;  
+    
+    }
+
+.nav li{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    }
+.nav li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    }
+.nav li a:hover{
+    color: #145A32 ;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div class="box box1">
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens corn soko endive gumbo gourd. 
+        <br><br><br> A box with a minimum height of 100 pixel and the content should not overflow.
+        </p>
+        </div>
+        <br>
+        <div class="box box2">
+        <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic. Gumbo beet greens corn soko endive gumbo gourd. 
+        <br>A box with a height of 100 pixel and the content will overflow if there is too much.
+        </p>
+        </div>
+            
+    
+</body>

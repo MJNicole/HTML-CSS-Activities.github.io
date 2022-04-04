@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exercise: Using float and clear properties</title>
+
+    <style>
+
+
+     .container{height: 70vh;}
+        .box{
+            padding:25px;
+            text-align: center;
+            color: white;
+            width: 980px;
+            
+        }
+        #box1{
+            background-color: teal;
+            float: none;
+            width:980px;
+
+        }
+        #box2{
+            background-color: rgb(30, 146, 107);
+            float: left;
+            width:270px;
+            height: 70vh;
+
+        }
+        #box3{
+            background-color: rgb(115, 202, 173);
+            width:980px;
+            height: 70vh;
+        }
+        #box4{
+            background-color: rgb(21, 109, 80);
+            clear: both; 
+            width:980px;
+
+            
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box" id="box1">header</div>   
+        <div class="box" id="box2">sidebar</div>   
+        <div class="box" id="box3">content</div>   
+        <div class="box" id="box4">footer</div> 
+    </div>        
+    
+    
+</body>
+</html>
